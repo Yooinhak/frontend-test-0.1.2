@@ -7,13 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import { MACBOOK_2020_PRO_13 } from './api/data/MACBOOK_2020_PRO_13';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement,
 );
-root.render(
-  <React.StrictMode>
-    <App sale={MACBOOK_2020_PRO_13} />
-  </React.StrictMode>
-);
+root.render(<App sale={MACBOOK_2020_PRO_13} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
